@@ -6,4 +6,4 @@ __pycache__/
 inspect_*.py
 test_parsers.py
 .pytest_cache/
-README.md
+Workflow & Architecture Summary.docx
