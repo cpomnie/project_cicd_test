@@ -8,3 +8,4 @@ inspect_*.py
 test_parsers.py
 .pytest_cache/
 Workflow & Architecture Summary.docx
+/abc/
