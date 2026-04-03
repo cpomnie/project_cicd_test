@@ -7,5 +7,5 @@ COPY requirements.txt* ./
 RUN if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi
 RUN pip install --no-cache-dir streamlit
 COPY . .
-EXPOSE 8501
-CMD ["sh", "-c", "streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0 --server.headless=true"]
+EXPOSE 8505
+CMD ["sh", "-c", "streamlit run app.py --server.port=${PORT:-8505} --server.address=0.0.0.0 --server.headless=true"]
