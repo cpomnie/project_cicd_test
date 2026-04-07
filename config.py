@@ -14,8 +14,8 @@ OPENAI_TEMPERATURE = 0
 SERPER_API_KEY = os.getenv("SERPER_API_KEY", "")
 
 # --- Crawler ---
-MAX_PRODUCTS_PER_SOURCE = 5
-CRAWL_TIMEOUT_SECONDS = 35
+MAX_PRODUCTS_PER_SOURCE = 20
+CRAWL_TIMEOUT_SECONDS = 210
 CRAWL_SOURCES = ["google_shopping", "brand_site", "amazon", "flipkart"]
 
 # --- KB ---

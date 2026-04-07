@@ -176,6 +176,7 @@ if user_query:
             crawled_products = deduplicate(crawled_products)
 
     products = list(crawled_products)
+    products = products[:20]
 
     # Re-filter combined results against the query
     filtered = []
