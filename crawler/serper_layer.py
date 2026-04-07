@@ -7,7 +7,7 @@ from config import SERPER_API_KEY
 logger = logging.getLogger(__name__)
 
 
-def search_google_shopping(query: str, max_results: int = 5) -> list[dict]:
+def search_google_shopping(query: str, max_results: int = 20) -> list[dict]:
     """
     Call Serper.dev shopping API and return normalized raw dicts
     compatible with extract_product().
